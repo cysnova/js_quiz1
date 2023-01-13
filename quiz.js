@@ -7,72 +7,80 @@ function secondIndexOf(s1, s2) {
     return s1.indexOf(s2, firstIndex + 1);
   }
 
-let a = 100;
-let b = 200;
+  console.log(secondIndexOf("WHite rabbit", "it"));
 
-3.
-function equals(a,b){
-if(a===b){
-  return "EQUAL";
-  return "UNEQUAL";}
-}
+// let a = 100;
+// let b = 200;
 
-console.log(equals(100,1000));
+// 3.
+// function equals(a,b){
+// if(a===b){
+//   return "EQUAL";
+//   return "UNEQUAL";}
+// }
 
-4.
-let age = 10;
+// console.log(equals(100,1000));
 
-if(age>18){
-  console.log("Old enough");
-}else{
-  console.log("Too young");
-}
+// 4.
+// let age = 10;
 
-5.
-function redigit(num,b){
-let prev = -1;
-while (num != 0) {
-      let digit = num % b;
-      num = parseInt(num/b);
-      if (prev != -1 && digit != prev)
-          return 'No Repdigit!';
-      prev = digit;
-  }
-  return 'Repdigit!';
-}
+// if(age>18){
+//   console.log("Old enough");
+// }else{
+//   console.log("Too young");
+// }
 
-6.
-function unequal(a,b,c){
-  if (a!==b && b!==c && a!==c){
-    return "true";
-  }else{
-    return "false"
-  }
-}
+// // ternary operator: age > 18 ? console.log("Old enough") : console.log("Too young");
+// 5.
+// function repdigit(num,b){
+// let prev = -1;
+// while (num != 0) {
+//       let digit = num % b;
+//       num = parseInt(num/b);
+//       if (prev != -1 && digit != prev)
+//           return 'No Repdigit!';
+//       prev = digit;
+//   }
+//   return 'Repdigit!';
+// }
 
-console.log(unequal(1,2,3));
-console.log(unequal(1,0,2));
+// 6.
+// function unequal(a,b,c){
+//   if (a!==b && b!==c && a!==c){
+//     return "true";
+//   }else{
+//     return "false"
+//   }
+// }
+
+// // ternary operator: 
+// //  function unequal (a,b,c){
+// //   return (a!==b && b!==c && a!==c )? true:false
+// // }
+
+// console.log(unequal(1,2,3));
+// console.log(unequal(1,0,2));
 
 
-// 7. The first and third alerts are going to execute except the second one which has the result of undefined.
+// // 7. The first and third alerts are going to execute except the second one which has the result of undefined.
 
-8.
-let userName = prompt("Who's there?", '');
+// 8.
+// let userName = prompt("Who's there?", '');
 
-if (userName === 'Admin') {
+// if (userName === 'Admin') {
 
-  let pass = prompt('Password?', '');
+//   let pass = prompt('Password?', '');
 
-  if (pass === 'TheMaster') {
-    alert( 'Welcome!' );
-  } else if (pass === '' || pass === null) {
-    alert( 'Canceled' );
-  } else {
-    alert( 'Wrong password' );
-  }
+//   if (pass === 'TheMaster') {
+//     alert( 'Welcome!' );
+//   } else if (pass === '' || pass === null) {
+//     alert( 'Canceled' );
+//   } else {
+//     alert( 'Wrong password' );
+//   }
 
-} else if (userName === '' || userName === null) {
-  alert( 'Canceled' );
-} else {
-  alert( "I don't know you" );
-}
+// } else if (userName === '' || userName === null) {
+//   alert( 'Canceled' );
+// } else {
+//   alert( "I don't know you" );
+// }
